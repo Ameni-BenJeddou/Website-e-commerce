@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="commande.css">
+	<title>commande</title>
+    <link rel="icon"href="img\logo.jpg">
+</head>	
+ <body>
+    <header >STARLIGHT</header>
+     
+    
+         <div class="topnav">
+        <nav>
+ <a  href="accueil.html">Home</a>
+  <a href="article.html">Our Products</a>
+  <a class="active" href="commande.html">Shop</a>
+  <a href="contact.html">Contact</a>
+  <a href=apropos.html>About</a>
+ <a href="location.html">Location</a>
+
+</nav>
+</div>
+
+<h1 align="center">Purchase your article</h1>
+
+              <form  method="post" action="" >
+        <table align="center">
+            <tr>
+                <td><label for="cin">ID number : </label></td>
+                <td><input type="text" name="cin" id="cin" required></td>
+            </tr>
+            <tr>
+                <td><label for="email">Mail : </label></td>
+                <td><input type="text" name="mail" id="mail" placeholder="Email address" ></td>
+            </tr>
+          
+            <tr>
+                <td>article reference:</td>
+                <td><SELECT name="ref" size="1" >
+                    <OPTION>#1
+                    <OPTION>#2
+                    <OPTION>#3
+                    <OPTION>#4
+                    <OPTION>#5
+                    <OPTION>#6
+                    <OPTION>#7
+                    <OPTION>#8
+                    <OPTION>#9
+                    <OPTION>#10
+                    <OPTION>#11
+                    <OPTION>#12
+                    </SELECT></td>
+            </tr>
+            <tr>
+                <td>number of articles :</td>
+                <td>
+                    <SELECT name="nb" size="1" >
+                        <OPTION>1
+                        <OPTION>2
+                        <OPTION>3
+                        <OPTION>4
+                        <OPTION>5
+                        <OPTION>6
+                        <OPTION>7
+                        <OPTION>8
+                        <OPTION>9
+                        <OPTION>10
+                        </SELECT>
+
+                </td>
+            </tr>
+            <tr>
+                <td>paimenet type:</td>
+                <td> 
+                    <input type="radio" id="payement1"
+                    name="payement1" value="payement1"checked="checked">
+                   <label for="payement1">cash </label>
+               
+                   <input type="radio" id="payement1"
+                    name="payement1" value="payement1">
+                   <label for="payement1">credit</label>
+
+                </td>
+            </tr>
+            <tr>
+                <td><label for="carte">card number: </label></td>
+                <td><input type="text" name="carte" id="carte" placeholder="In case of credit payment" ></td>
+            </tr>
+            <tr><td align="center"><br><input type="reset" value="delete" /> </td>  
+               <td><br> <input type="submit" value="Send" /></td></tr>
+            
+        </table>
+        </form>
+</body>
+</html>
